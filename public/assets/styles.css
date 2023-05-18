@@ -1,0 +1,104 @@
+.card-hover {
+    display: flex;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0/30%);
+    border: 1px solid rgba(0,97,61,.2);
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    transition: transform .4s ease 0s;
+}
+
+.detail {
+    text-decoration: none;
+    color: #212529;
+}
+
+.card-hover:hover {
+    background-color: wheat;
+    cursor: pointer;
+    /* animation: transl .4s ease .2s; */
+    transform: scale(1.07);
+}
+
+/* @keyframes transl {
+    form {
+        opacity: 0;
+        transform: scale(1);
+    } 
+    to {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+} */
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item:hover {
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.card-text {
+    margin: 0 15px;
+    display: inline;
+}
+
+.card-title {
+    padding-right: 60px;
+}
+
+.group {
+    height: 668px;
+    width: 100%;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid hsla(0,0%,59.2%,.4);
+    border-top: none;
+}
+
+.table-bott {
+    margin-bottom: 0 !important;
+}
+
+.table-head th {
+    width: 90px !important;
+    color: #141414;
+    padding: 8px 24px !important;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+.table-head td {
+    width: 80px !important;
+    color: #141414;
+    padding: 8px 28px !important;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+.scrow {
+    width: 100%;
+    overflow-x: scroll;
+    justify-content: center;
+}
+
+.contai-center {
+    display: flex;
+    width: inherit;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sumary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
