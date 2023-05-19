@@ -20,4 +20,14 @@ class HomePageController extends Controller
     {
         return view('client.page.lien_he');
     }
+
+    public function chiTiet()
+    {
+        return view('client.page.chi_tiet');
+    }
+
+    public function chungToi()
+    {
+        return view('client.page.ve_chung_toi');
+    }
 }

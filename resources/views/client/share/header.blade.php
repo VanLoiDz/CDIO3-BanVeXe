@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container">
-        <a href="#">
+        <a href="/?#">
             <img src="https://futabus.vn/_nuxt/img/logo-buslines-small.b4bfbf7.png" style="margin: 0 80px 0 20px; width: 200px;" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -10,23 +10,20 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="/#">Trang chủ</a>
+                    <a class="nav-link active" href="/?#">Trang chủ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/lich-trinh#">Lịch trình</a>
+                    <a class="nav-link active" href="/lich-trinh?#">Lịch trình</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Tin tức</a>
+                    <a class="nav-link active" href="/lien-he?#">Liên hệ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/lien-he#">Liên hệ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Về chúng tôi</a>
+                    <a class="nav-link active" href="/ve-chung-toi?#">Về chúng tôi</a>
                 </li>
             </ul>
             <form class="d-flex">
-                <button class="btn btn-outline-success" style="margin: 0 10px;" data-bs-toggle="modal" data-bs-target="#exampleModal">Đăng nhập</button>
+            <button class="btn btn-outline-success" style="margin: 0 10px;" data-bs-toggle="modal" data-bs-target="#exampleModal">Đăng nhập</button>
                 <button class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal1">Đăng kí</button>
             </form>
         </div>
@@ -101,16 +98,16 @@
 <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="/assets/image/1.png" class="d-block w-100" alt="...">
+            <img src="/assets/image/xe1.jpg" class="d-block w-100" style="height: 350px" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="/assets/image/2.png" class="d-block w-100" alt="...">
+            <img src="/assets/image/xe2.png" class="d-block w-100" style="height: 350px" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="/assets/image/3.png" class="d-block w-100" alt="...">
+            <img src="/assets/image/xe3.jpg" class="d-block w-100" style="height: 350px" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="/assets/image/4.png" class="d-block w-100" alt="...">
+            <img src="/assets/image/benxebus.jpg" class="d-block w-100" style="height: 350px" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"

@@ -22,12 +22,48 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item menu-open">
-            <a href="#" class="nav-link">
-              <p>
-                Dashboard
-              </p>
-            </a>
+            <li class="nav-item menu-open">
+                <a href="#" class="nav-link">
+                    <p>
+                        Quản lý tài khoản
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item menu-open">
+                <a href="#" class="nav-link">
+                    <p>
+                        Quản lý vé
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item menu-open">
+                <a href="#" class="nav-link">
+                    <p>
+                        Quản lý xe
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item menu-open">
+                <a href="#" class="nav-link">
+                    <p>
+                        Quản lý Khách hàng
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item menu-open">
+                <a href="#" class="nav-link">
+                    <p>
+                        Quản lý nhân viên
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item menu-open">
+                <a href="/" class="nav-link">
+                    <p>
+                        Trang chủ người dùng
+                    </p>
+                </a>
+            </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

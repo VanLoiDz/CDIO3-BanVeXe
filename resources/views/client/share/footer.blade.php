@@ -3,4 +3,5 @@
         <p style="color: rgb(13, 12, 12); margin: 0;">Tổng đài CSKH:</p>
         <b>19001232320</b>
     </div>
+    <a href="/admin/quanlive">trang admin</a>
 </footer>

@@ -12,6 +12,8 @@ Route::group(['prefix' => '/admin'],function() {
 Route::get('/', [HomePageController::class , 'index']);
 Route::get('/lich-trinh', [HomePageController::class , 'lichTrinh']);
 Route::get('/lien-he', [HomePageController::class , 'lienHe']);
+Route::get('/chi-tiet', [HomePageController::class , 'chiTiet']);
+Route::get('/ve-chung-toi', [HomePageController::class , 'chungToi']);
 
 Route::group(['prefix' => '/client'],function() {
 

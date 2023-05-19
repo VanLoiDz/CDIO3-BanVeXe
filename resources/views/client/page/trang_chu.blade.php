@@ -52,7 +52,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="card mb-4 card-hover">
-                <a href="#" class="detail">
+                <a href="/chi-tiet" class="detail">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img style="height: 90px; width: 400px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl7eS6vKRuA_frN7CMGpS_oX3QssRot-f5jDkSE71KO7hSSXjL"
@@ -81,7 +81,7 @@
         </div>
         <div class="col-md-6">
             <div class="card mb-4 card-hover">
-                <a href="#" class="detail">
+                <a href="/chi-tiet" class="detail">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img style="height: 90px; width: 400px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl7eS6vKRuA_frN7CMGpS_oX3QssRot-f5jDkSE71KO7hSSXjL"
@@ -101,7 +101,7 @@
         </div>
         <div class="col-md-6">
             <div class="card mb-4 card-hover">
-                <a href="#" class="detail">
+                <a href="/chi-tiet" class="detail">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img style="height: 90px; width: 400px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl7eS6vKRuA_frN7CMGpS_oX3QssRot-f5jDkSE71KO7hSSXjL"
@@ -121,7 +121,7 @@
         </div>
         <div class="col-md-6">
             <div class="card mb-4 card-hover">
-                <a href="#" class="detail">
+                <a href="/chi-tiet" class="detail">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img style="height: 90px; width: 400px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl7eS6vKRuA_frN7CMGpS_oX3QssRot-f5jDkSE71KO7hSSXjL"
@@ -141,7 +141,7 @@
         </div>
         <div class="col-md-6">
             <div class="card mb-4 card-hover">
-                <a href="#" class="detail">
+                <a href="/chi-tiet" class="detail">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img style="height: 90px; width: 400px;" src="/assets/image/hohkdem.jpg"
@@ -161,7 +161,7 @@
         </div>
         <div class="col-md-6">
             <div class="card mb-4 card-hover">
-                <a href="#" class="detail">
+                <a href="/chi-tiet" class="detail">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img style="height: 90px; width: 400px;" src="/assets/image/hohkdem.jpg"
@@ -181,7 +181,7 @@
         </div>
         <div class="col-md-6">
             <div class="card mb-4 card-hover">
-                <a href="#" class="detail">
+                <a href="/chi-tiet" class="detail">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img style="height: 90px; width: 400px;" src="/assets/image/hohkdem.jpg"
@@ -201,7 +201,7 @@
         </div>
         <div class="col-md-6">
             <div class="card mb-4 card-hover">
-                <a href="#" class="detail">
+                <a href="/chi-tiet" class="detail">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img style="height: 90px; width: 400px;" src="/assets/image/hohkdem.jpg"

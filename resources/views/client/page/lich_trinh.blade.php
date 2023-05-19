@@ -45,7 +45,7 @@
                             <td>12 giờ 46 phút</td>
                             <td><!------></td>
                             <td>
-                                <button class="btn btn-success">Chi tiết</button>
+                                <a href="/chi-tiet" style="text-decoration: none; font-weight: 600; color: green">Chi tiết</a>
                             </td>
                             <td>
                                 <button class="btn btn-success">Đặt vé</button>
@@ -67,7 +67,7 @@
                             <td>12 giờ 46 phút</td>
                             <td>300.000 vnd/1</td>
                             <td>
-                                <button class="btn btn-success">Chi tiết</button>
+                                <a href="/chi-tiet" style="text-decoration: none; font-weight: 600; color: green">Chi tiết</a>
                             </td>
                             <td>
                                 <button class="btn btn-success">Đặt vé</button>
@@ -80,7 +80,7 @@
                             <td>10 giờ 50 phút</td>
                             <td>200.000 vnd/1</td>
                             <td>
-                                <button class="btn btn-success">Chi tiết</button>
+                                <a href="/chi-tiet" style="text-decoration: none; font-weight: 600; color: green">Chi tiết</a>
                             </td>
                             <td>
                                 <button class="btn btn-success">Đặt vé</button>
@@ -93,7 +93,7 @@
                             <td>10 giờ 50 phút</td>
                             <td>200.000 vnd/1</td>
                             <td>
-                                <button class="btn btn-success">Chi tiết</button>
+                                <a href="/chi-tiet" style="text-decoration: none; font-weight: 600; color: green">Chi tiết</a>
                             </td>
                             <td>
                                 <button class="btn btn-success">Đặt vé</button>
@@ -115,7 +115,7 @@
                             <td>12 giờ 46 phút</td>
                             <td>300.000 vnd/1</td>
                             <td>
-                                <button class="btn btn-success">Chi tiết</button>
+                                <a href="/chi-tiet" style="text-decoration: none; font-weight: 600; color: green">Chi tiết</a>
                             </td>
                             <td>
                                 <button class="btn btn-success">Đặt vé</button>
@@ -137,7 +137,7 @@
                             <td>12 giờ 46 phút</td>
                             <td>300.000 vnd/1</td>
                             <td>
-                                <button class="btn btn-success">Chi tiết</button>
+                                <a href="/chi-tiet" style="text-decoration: none; font-weight: 600; color: green">Chi tiết</a>
                             </td>
                             <td>
                                 <button class="btn btn-success">Đặt vé</button>
@@ -159,7 +159,7 @@
                             <td>12 giờ 46 phút</td>
                             <td>300.000 vnd/1</td>
                             <td>
-                                <button class="btn btn-success">Chi tiết</button>
+                                <a href="/chi-tiet" style="text-decoration: none; font-weight: 600; color: green">Chi tiết</a>
                             </td>
                             <td>
                                 <button class="btn btn-success">Đặt vé</button>
@@ -181,7 +181,7 @@
                             <td>12 giờ 46 phút</td>
                             <td>300.000 vnd/1</td>
                             <td>
-                                <button class="btn btn-success">Chi tiết</button>
+                                <a href="/chi-tiet" style="text-decoration: none; font-weight: 600; color: green">Chi tiết</a>
                             </td>
                             <td>
                                 <button class="btn btn-success">Đặt vé</button>
