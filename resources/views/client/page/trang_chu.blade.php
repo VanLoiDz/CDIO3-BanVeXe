@@ -1,15 +1,48 @@
 @extends('client.share.master')
 @section('noi-dung')
-<div class="container mt-2">
-    <div class="alert alert-primary" role="alert">
-        <marquee behavior="" direction="">
-            <b>Chào mừng </b> các bạn đang học lớp <i>CDIO 3</i>
-        </marquee>
+    <!-- Slider -->
+    <div class="fr-slider-wrap">
+        <div class="fr-slider">
+            <ul class="slides">
+                <li>
+                    <img src="/assets/image/anh1.jpg" alt="">
+                    <div class="fr-slider-cont">
+                        <h3 style="color: red">MEGA SALE -30%</h3>
+                        <p style="color: rgb(241, 218, 8)">Winter collection for women's. <br>We all have choices for you. Check it out!</p>
+                        <p class="fr-slider-more-wrap">
+                            <a class="fr-slider-more" href="/chi-tiet">Xem Ngay</a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="/assets/image/anh2.jpg" alt="">
+                    <div class="fr-slider-cont">
+                        <h3 style="color: red">NEW COLLECTION</h3>
+                        <p style="color: rgb(186, 235, 11)">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Aliquam consequuntur
+                            dolorem doloribus fuga harum</p>
+                        <p class="fr-slider-more-wrap">
+                            <a class="fr-slider-more" href="/chi-tiet">Đặt Vé Ngay</a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="/assets/image/anh3.jpeg" alt="">
+                    <div class="fr-slider-cont">
+                        <h3 style="color: red">SUMMER TRENDS</h3>
+                        <p style="color: rgb(185, 233, 11)">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Aliquam consequuntur
+                            dolorem doloribus fuga harum</p>
+                        <p class="fr-slider-more-wrap">
+                            <a class="fr-slider-more" href="/chi-tiet">Xem Chi Tiết</a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 
     <div class="row">
         <div class="col-md-12">
-            <div class="card">
+            <div class="card" style="box-shadow: 4px 4px 20px 1px hsla(0,0%,54.5%,.4);">
                 <div class="card-body">
                     <div class="form-check form-check-inline" style="margin: 7px 7px;">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
@@ -39,16 +72,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-footer text-end">
+                <div class="card-footer">
                     <div class="d-grid gap-2 col-6 mx-auto">
-                        <button type="button" class="btn btn-outline-success btn-lg">TÌM CHUYẾN XE</button>
+                        <button type="button" class="btn btn-outline-success btn-lg"><b>TÌM CHUYẾN XE</b></button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <h4 class="mt-4">Chuyến phổ biến</h4>
+    <h1 class="mt-4 text-danger" style="font-size: 30px;">Chuyến phổ biến</h1>
     <div class="row">
         <div class="col-md-6">
             <div class="card mb-4 card-hover">
@@ -293,6 +326,275 @@
             </div>
         </div>
     </div>
+
+    <!-- Popular Products -->
+    <div class="fr-pop-wrap mt-5">
+
+        <h3 class="component-ttl"><span>Điểm Đến Phổ Biến</span></h3>
+
+        <div class="fr-pop-tab-cont">
+
+            <div class="flexslider prod-items fr-pop-tab" id="frpoptab-tab-1">
+
+                <ul class="slides">
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/hohkdem.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/phongnha1.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/hohkdem.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/phongnha1.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/phongnha1.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/hohkdem.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/phongnha1.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/phongnha1.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/phongnha1.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                    <li class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="product.html" class="prod-i-img"><img
+                                    src="/assets/image/hohkdem.jpg" alt="Non ex sapiente deserunt"></a>
+                            <p class="prod-i-info">
+                                <a href="#" class="prod-i-favorites"><span>Yêu Thích</span><i
+                                        class="fa fa-heart"></i></a>
+                                <a href="#" class="qview-btn prod-i-qview"><span>Xem Ngay</span><i
+                                        class="fa fa-search"></i></a>
+                                <a class="prod-i-compare" href="#"><span>Xem Thống Kê</span><i
+                                        class="fa fa-bar-chart"></i></a>
+                            </p>
+                            <p class="prod-i-addwrap">
+                                <a href="#" class="prod-i-add">Add to cart</a>
+                            </p>
+
+                            <div class="prod-sticker">
+                                <p class="prod-sticker-3">-30%</p>
+                                <p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+                            </div>
+                        </div>
+                        <h3>
+                            <a href="product.html">Non ex sapiente deserunt</a>
+                        </h3>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div><!-- .fr-pop-tab-cont -->
+
+    </div>
+    <!-- .fr-pop-wrap -->
 
 </div>
 @endsection

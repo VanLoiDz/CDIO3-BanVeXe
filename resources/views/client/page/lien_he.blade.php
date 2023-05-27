@@ -1,6 +1,44 @@
 @extends('client.share.master')
 @section('noi-dung')
-<div class="container">
+    <!-- Slider -->
+    <div class="fr-slider-wrap">
+        <div class="fr-slider">
+            <ul class="slides">
+                <li>
+                    <img src="/assets/image/anh1.jpg" alt="">
+                    <div class="fr-slider-cont">
+                        <h3 style="color: red">MEGA SALE -30%</h3>
+                        <p style="color: rgb(241, 218, 8)">Winter collection for women's. <br>We all have choices for you. Check it out!</p>
+                        <p class="fr-slider-more-wrap">
+                            <a class="fr-slider-more" href="/chi-tiet">Xem Ngay</a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="/assets/image/anh2.jpg" alt="">
+                    <div class="fr-slider-cont">
+                        <h3 style="color: red">NEW COLLECTION</h3>
+                        <p style="color: rgb(186, 235, 11)">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Aliquam consequuntur
+                            dolorem doloribus fuga harum</p>
+                        <p class="fr-slider-more-wrap">
+                            <a class="fr-slider-more" href="/chi-tiet">Đặt Vé Ngay</a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="/assets/image/anh3.jpeg" alt="">
+                    <div class="fr-slider-cont">
+                        <h3 style="color: red">SUMMER TRENDS</h3>
+                        <p style="color: rgb(185, 233, 11)">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Aliquam consequuntur
+                            dolorem doloribus fuga harum</p>
+                        <p class="fr-slider-more-wrap">
+                            <a class="fr-slider-more" href="/chi-tiet">Xem Chi Tiết</a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <div class="card mt-4">
         <div class="card-body">
@@ -55,5 +93,4 @@
             </div>
         </div>
     </div>
-</div>
 @endsection

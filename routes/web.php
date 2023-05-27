@@ -14,6 +14,8 @@ Route::get('/lich-trinh', [HomePageController::class , 'lichTrinh']);
 Route::get('/lien-he', [HomePageController::class , 'lienHe']);
 Route::get('/chi-tiet', [HomePageController::class , 'chiTiet']);
 Route::get('/ve-chung-toi', [HomePageController::class , 'chungToi']);
+Route::get('/auth', [HomePageController::class , 'logIn']);
+Route::get('/ve-da-dat', [HomePageController::class , 'veDaDat']);
 
 Route::group(['prefix' => '/client'],function() {
 

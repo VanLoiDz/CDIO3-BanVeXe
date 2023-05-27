@@ -30,4 +30,14 @@ class HomePageController extends Controller
     {
         return view('client.page.ve_chung_toi');
     }
+
+    public function logIn()
+    {
+        return view('client.page.dang_nhap');
+    }
+
+    public function veDaDat()
+    {
+        return view('client.page.ve_da_dat');
+    }
 }
